@@ -1,0 +1,8 @@
+{
+    "locales": ["tr", "en"],
+    "defaultLocale": "tr",
+    "pages": {
+      "*": ["common","country","position"]
+    },
+    "logBuild":false
+  }

@@ -1,0 +1,29 @@
+{
+  "name": "football-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.17",
+    "@auth0/auth0-react": "^1.8.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.7.2",
+    "ioredis": "^4.28.0",
+    "luxon": "^2.1.1",
+    "nanoid": "^3.1.30",
+    "next": "^11.0.0",
+    "next-translate": "^1.1.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-markdown": "^7.1.0",
+    "slug": "^5.1.0"
+  },
+  "author": "BK52",
+  "license": "ISC"
+}

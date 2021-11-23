@@ -1,0 +1,19 @@
+{
+    "GK":"Goalkeeper ",
+    "LWB":"Left Wing Back",
+    "RWB":"Right Wing Back",
+    "LB":"Left Back",
+    "CB":"Center Back",
+    "RB":"Right Back",
+    "CDM":"Center Defender Midfielder",
+    "LM":"Left Midfielder",
+    "CM":"Center Midfielder",
+    "RM":"Right Midfielder",
+    "CAM":"Center Attacker Midfielder",
+    "ST":"Striker",
+    "CF":"Central Forward",
+    "LF":"Left Forward",
+    "RF":"Right Forward",
+    "RW":"Right Wing",
+    "LW":"Left Wing"
+}
