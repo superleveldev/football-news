@@ -25,7 +25,7 @@ export default function Slider({ Data }) {
                     <button className="imageslider-button imageslider-black imageslider-display-left" onClick={() => ChangeSlider(-1)}>&#10094;</button>
                     <button className="imageslider-button imageslider-black imageslider-display-right" onClick={() => ChangeSlider(1)}>&#10095;</button>
                     <div className="slider-details">
-                        <Link href="/post/[slug]" as={`/post/${slug(Data.title ? Data.title : '')}-${Data.id}`}>
+                        <Link href="/post/[slug]" as={`/post/${slug(Data[slideIndex].title ? Data[slideIndex].title : '')}-${Data[slideIndex].id}`}>
                             <div className="slider-title">
                                 {Data && Data[slideIndex].title}
                             </div>
@@ -42,7 +42,7 @@ export default function Slider({ Data }) {
                         </div>
                     </div>
                 </div>
-                <Link href="/post/[slug]" as={`/post/${slug(Data.title ? Data.title : '')}-${Data.id}`}>
+                <Link href="/post/[slug]" as={`/post/${slug(Data[slideIndex].title ? Data[slideIndex].title : '')}-${Data[slideIndex].id}`}>
                     <div className="mobileNewsTitle">
                         {Data && Data[slideIndex].title}
                     </div>
