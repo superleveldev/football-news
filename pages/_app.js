@@ -2,6 +2,18 @@ import '../public/assets/css/font-awesome.css';
 import '../public/assets/css/main.css';
 import '../public/assets/css/loading.css';
 import '../public/assets/css/error.css';
+
+const { default: AbortController } = require("abort-controller");
+const { default: fetch, Headers, Request, Response } = require("node-fetch");
+
+Object.assign(globalThis, {
+    fetch,
+    Headers,
+    Request,
+    Response,
+    AbortController,
+});
+
 import App from 'next/app'
 import { ApolloProvider } from "@apollo/client";
 import client from "../lib/apollo-client";
