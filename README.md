@@ -6,22 +6,23 @@
 <h3 align=center>🔴 Live version available on <a href='https://football-news-snowy.vercel.app/' target='_blank'>here</a></h3>
 
 ## Features
-- Multi-language support
+- Multi-language support with [next-translate](https://github.com/vinissimus/next-translate)
 - Include different approaches 
   - [CSR (Client Side Rendering)](#csr)
   - [SSR (Server Side Rendering)](#ssr), 
-  - SSG (Static Site Generation)(#ssg)
+  - [SSG (Static Site Generation)](#ssg)
 - Google authenticated users can comment to contents.
 
 ## Table of Contents
-* Design Files
-* How It Works
+* [Design Files](#designfiles)
+* [How It Works](#howitworks)
+* [Installation](#install)
 
-## 📐 Design Files 
+## 📐 Design Files <span id="designfiles"></span>
 
  You can access design files on [Figma](https://www.figma.com/file/1vEIi8WwGmenYVrHeaAYNT/FootballNews)
 
-## ⚙ How it works
+## ⚙ How It Works <span id="howitworks"></span>
 
 ![Concept Schema](https://www.datocms-assets.com/58055/1637739534-schemas1.jpg)
 
@@ -121,3 +122,22 @@ export async function getStaticProps({ params }) {
 
 export default Post;
 ```
+
+## 🛠 Installation  <span id="install"></span>
+
+- Clone repository
+  > https://github.com/bk52/football-news.git
+- Install packages
+  > npm install
+- Create .env file add below fields
+  > DATOCMS_API_TOKEN=[YOUR_DATOCMS_TOKEN](https://www.datocms.com/docs/content-management-api/authentication)
+  
+  > NEXT_PUBLIC_URL=http://localhost:3000/
+ 
+  > AUTH_CLIENTID=[YOUR_AUTH0_CLIENTID]
+  
+  > AUTH_DOMAIN=[YOUR_AUTH0_DOMAIN]
+  
+  > DB_CONN=[YOUR_REDISDB_CONNECTION_STR]
+
+
