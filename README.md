@@ -1,4 +1,4 @@
-<h1 align=center> ⚽ Football News ⚽ </h1>
+<h1 align=center> ⚽ Soccer News ⚽ </h1>
 
 ![Site preview with different devices](https://www.datocms-assets.com/58055/1637739554-devices.png)
 
@@ -126,7 +126,7 @@ export default Post;
 ## 🛠 Installation  <span id="install"></span>
 
 - Clone repository
-  > https://github.com/mightyeagle329/football-news.git
+  > https://github.com/superleveldev/soccer_news.git
 - Install packages
   > npm install
 - Create .env file add below fields
